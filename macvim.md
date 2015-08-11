@@ -1,3 +1,11 @@
+Install iTerm2
+
+Change to zsh
+
+install oh my zsh
+
+change theme
+
 To install macvim
 * install homebrew from [install homebrew](http://brew.sh)
 * Run `export PATH=/usr/local/bin:$PATH`
