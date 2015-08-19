@@ -51,3 +51,11 @@ Restart iTerm for all changes to take effect.
 
 #To update macvim
 * Run `brew update && brew upgrade`
+
+#Add vim configuration file
+* In the new directory or Mac, the ~/.vim folder and the ~./vimrc configuration file are not exist. To create these files
+
+> mkdir ~/.vim
+> touch ~/.vimrc
+
+
