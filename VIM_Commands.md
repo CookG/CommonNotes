@@ -12,7 +12,7 @@ number before above command works perfectly
 
 `30i- ESC` will make an underline 30 times, `3igo ESC`will print gogogo for you
 
-`f` to find next occurrence of a character, e.g. `fo`, `F` to find previous occurrence of a character
+`f` to find next occurrence of a character, e.g. `fo`, `F` to find previous occurrence of a character, `;` and `,` to repeat.  
 
 If in the text that is structured with parentheses or brackets, `(` or `[` or `{`, use `%` to jump to the matching parenthesis or bracket.
 
@@ -41,3 +41,7 @@ remove two words `d2e`
 `visual mode`, use `v` to enter visual mode, in the visual mode, you select text using movement keys before you decide what to do with it.
 
 `u` to undo and `ctrl+R` for redo
+
+`a`,`A` append mode
+
+
