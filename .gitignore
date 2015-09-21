@@ -54,3 +54,4 @@ docs/_build/
 
 # vim files 
 *.un~
+*.md~
