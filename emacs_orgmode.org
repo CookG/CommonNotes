@@ -17,7 +17,9 @@ MY Project -*- mode: org -*-
 ** TODO Install emacs, windows/mac.
    For now, only org-mode editing will be in emacs, still work on 
    work flow to edit code in vim
+   *Need to notice* :: Home directory on windows is c:/Users/xli/AppData/Roaming/.emacs or .emacs.d 
 ** TODO Change themes and fonts.
+      https://github.com/sellout/emacs-color-theme-solarized
 ** TODO Involve org-mode
 ** TODO Install evil-mode
 
@@ -38,7 +40,4 @@ MY Project -*- mode: org -*-
       line of (require 'org)
 	(setq org-todo-keywords
 	 '((sequence "TODO" "IN-PROGRESS" "WAITING" "DONE")))
-   7. 
-
-* DONE this and that
-* TODO this and that
+* Agendas
