@@ -1,0 +1,44 @@
+MY Project -*- mode: org -*-
+#+STARTUP: showall
+* Welcome to org-mode
+
+
+
+
+  Welcome, and thanks for trying out Org-mode. Making outlines in
+  org is very simple. It is just text! Just start typing.
+* This is a headline, it starts with one or more stars
+  A heading has one star, a sub-heading two, etc.
+* Working with lists
+** Moving around in our outline
+** Moving around headlinesme, and thanks
+
+* Install emacs, with org-mode and evil mode
+** TODO Install emacs, windows/mac.
+   For now, only org-mode editing will be in emacs, still work on 
+   work flow to edit code in vim
+** TODO Change themes and fonts.
+** TODO Involve org-mode
+** TODO Install evil-mode
+
+* Short cuts for org-mode
+   1. TAB to fold and unfold items, shift-tab to fold the whole document
+   2. To move an item or a sub-list up/down just use M + up/down
+   3. To promote or demote headings use M + left/right
+   4. To add a new headline, press M + RET
+* Working with notes/TODO
+   1. Can add descriptions with :: This is a description
+   2. You can make words *bold*, /italic/, _underlined_, =code= and 
+      ~verbatim~, and, if you must, +strike through+.
+   3. shift+left/right :: cycle workflow, can change TODO->DONE->empty.
+   4. ctrl+c ctrl+v :: show todos in current document (*This is not work*)
+   5. #+TODO: TODO IN-PROGRESS WAITING DONE :: this on the top line will active 
+      more status for the todo list.
+   6. Adding the workflow as 5 stated :: In the emacs-config file, after the
+      line of (require 'org)
+	(setq org-todo-keywords
+	 '((sequence "TODO" "IN-PROGRESS" "WAITING" "DONE")))
+   7. 
+
+* DONE this and that
+* TODO this and that
