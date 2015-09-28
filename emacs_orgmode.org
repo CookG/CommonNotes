@@ -41,3 +41,10 @@ MY Project -*- mode: org -*-
 	(setq org-todo-keywords
 	 '((sequence "TODO" "IN-PROGRESS" "WAITING" "DONE")))
 * Agendas
+  1. New shortcuts:
+     1. ctrl+c a :: agenda (*This is not work*)
+     2. ctrl+c [ :: add document to the list of agenda files
+     3. ctrl+c ] :: remove document from the list of agenda files
+     4. ctrl+c . :: add date
+     5. ctrl+u ctrl+c . :: add time and date
+     6. ctrl+g :: stop doing what you are trying to da, escape

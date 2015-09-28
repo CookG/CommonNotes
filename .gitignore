@@ -55,5 +55,7 @@ docs/_build/
 # vim files 
 *.un~
 *.md~
+*.md#
 *.org~
 .gitignore~ 
+*.html
