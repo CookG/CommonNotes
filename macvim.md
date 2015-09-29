@@ -22,7 +22,7 @@ if met error "Agreeing to the Xcode/iOS license requires admin privileges, pleas
 
 * Edit `~/.zshrc` and set `ZSH_THEME="agnoster"`
 
-* Set defult user `DEFAULT_USER=huey`
+* Set defult user `DEFAULT_USER=randy`
 
 #Change theme
 [Solorized Dark Theme](https://raw.githubusercontent.com/altercation/solarized/master/iterm2-colors-solarized/Solarized%20Dark.itermcolors)
@@ -59,4 +59,16 @@ Restart iTerm for all changes to take effect.
 
 > touch ~/.vimrc
 
+* create directory under `~/.vim`
 
+> mkdir ~/.vim/autoload ~/.vim/bundle
+
+* get `pathogen.vim`
+
+> curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+
+* install `vim-sensible`
+
+`sensible` provides a lot of universal set of defaults
+
+> git clone https://github.com/tpope/vim-sensible.git
