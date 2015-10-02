@@ -18,8 +18,6 @@ MY Project -*- mode: org -*-
    For now, only org-mode editing will be in emacs, still work on 
    work flow to edit code in vim
    *Need to notice* :: Home directory on windows is c:/Users/xli/AppData/Roaming/.emacs or .emacs.d 
-** TODO Change themes and fonts.
-      https://github.com/sellout/emacs-color-theme-solarized
 ** TODO Involve org-mode
 ** TODO Install evil-mode
 
