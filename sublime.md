@@ -53,3 +53,4 @@ Not sure how useful it will be though...
 ## Install AutoPEP8
 ## Install Alignment
 ## Install AllAutocomplete
+## Install Plaintasks
