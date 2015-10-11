@@ -42,7 +42,7 @@ Non-ASCII Font -> "Change Font"
 
 Restart iTerm for all changes to take effect.
 
-#To install macvim
+#To install macvim side by side with system vim
 * install homebrew from [install homebrew](http://brew.sh)
 * Run `export PATH=/usr/local/bin:$PATH`
 * Run `brew update && brew upgrade`
@@ -51,6 +51,11 @@ Restart iTerm for all changes to take effect.
 
 #To update macvim
 * Run `brew update && brew upgrade`
+
+# Always use the vim inside MacVim (recommanded for YouCompleteMe)
+`brew install macvim --with-override-system-vim`
+`brew linkapps macvim`
+note command line tool for xcode may be needed for the compilation.
 
 #Add vim configuration file
 * In the new directory or Mac, the ~/.vim folder and the ~./vimrc configuration file are not exist. To create these files
@@ -72,3 +77,22 @@ Restart iTerm for all changes to take effect.
 `sensible` provides a lot of universal set of defaults
 
 > git clone https://github.com/tpope/vim-sensible.git
+
+# Clone and compile YCM
+
+clone YCM to `~/.vim/bundles/`  
+
+> cd ~/.vim/bundle && git clone https://github.com/Valloric/YouCompleteMe.git
+
+fetch dependencies  
+
+> cd ~/.vim/bundle/YouCompleteMe && git submodule update --init --recursive 
+
+Install CMake: 
+> brew install cmake
+
+make sure have Python headers installed 
+> brew install python-dev
+
+Compile YCM with semantic support for C-family languages: 
+> cd ~/.vim/bundle/YouCompleteMe && ./install.py --clang-completer --gocode-completer
