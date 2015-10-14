@@ -55,6 +55,14 @@ Then go to the `~/tmp/powerline_fonts`, copy DejaVu_Sans_Mono_for_Powerline font
 > endif
 
 ## Install and use CtrlP
+## Install ctags
+## Install nerdtree
+## Install numbers
+## Install tagbar
+## Install vim-airline
+## Install vim-sensible
+## Install YouCompleteMe
+## Install vim-colors-solarized
 
 # `vi` usage and shortcuts
 
