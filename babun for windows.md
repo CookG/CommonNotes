@@ -1,7 +1,7 @@
 # Install Babun
 Go to [Babun](http://babun.github.io/), download, unzip and install Babun use cmd, e.g. 
 
-> install.bat /t "D:\Babun"
+> ./install.bat /t "D:\Babun"
 
 Wait until the installation finishes, it will bring up a `zsh` with `babun` theme.
 
