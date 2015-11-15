@@ -14,7 +14,7 @@ sudo apt-get install build-dep vim
 ` 
 
 3. clone and compile vim74
-`
+```
 cd ~
 git clone https://github.com/vim/vim.git
 cd vim
@@ -28,36 +28,38 @@ cd vim
             --enable-gui=gtk2 --enable-cscope --prefix=/usr
 make VIMRUNTIMEDIR=/usr/share/vim/vim74
 sudo make install
-`
+```
 4. Set vim as the default editor with `update-alternatives`
-`
+```
 sudo update-alternatives --install /usr/bin/editor editor /usr/bin/vim 1
 sudo update-alternatives --set editor /usr/bin/vim
 sudo update-alternatives --install /usr/bin/vi vi /usr/bin/vim 1
 sudo update-alternatives --set vi /usr/bin/vim
-`
+```
 
 ## Install YouCompleteMe 
 This part is trying to use **Pathogen** to install the YCM package.
 
 ### Get Pathogen
 use the code below to get **Pathogen** ready for use
-`
+```
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-`
+```
 
 Add this to the vimrc:
-`
+```
 execute pathogen#infect()
-`
+```
 
 ### Set an initial *vimrc*
-`
+```
 execute pathogen#infect()
+
 syntax on
+
 filetype plugin indent on
-`
+```
 
 and install **vim-sensible**
 `
