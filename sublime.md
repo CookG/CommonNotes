@@ -12,14 +12,36 @@ import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc5
 Go to Package Control, install Material Theme
 In the User Setting
 ```
-"theme": "Material-Theme.sublime-theme",
- "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",`
+{
+  	"theme": "Material-Theme.sublime-theme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 
-` "overlay_scroll_bars": "enabled",
-  "font_face": "Monaco for Powerline",
-  "font_size": 18,
-  "bold_folder_labels": true,
-  "indent_guide_options": [ "draw_normal", "draw_active" ],
+  	"overlay_scroll_bars": "enabled",
+  	"bold_folder_labels": true,
+  	"indent_guide_options": [ "draw_normal", "draw_active" ],    // Highlight active indent
+  	"font_options": [ "Monaco for Powerline Regular" ],
+  	"font_face": "Monaco for Powerline",
+  	"font_size": 12,
+  	"material_theme_small_tab": false,                          // Set small tabs
+ 	"material_theme_disable_fileicons": false,                  // Hide siderbar file type icons
+  	"material_theme_disable_folder_animation": false,           // Disable folder animation
+  	"material_theme_small_statusbar": false,                    // Set small status bar
+  	"material_theme_disable_tree_indicator": false,             // Disable sidebar file indicator
+  	"material_theme_bold_tab": false,                           // Make the tab labels bolder
+  	"material_theme_tabs_separator": false,                     // Show tabs separator
+  	"material_theme_accent_lime": true,                         // set green lime accent color
+  	//"material_theme_accent_purple": true,                       // set purple accent color
+  	//"material_theme_accent_red": true,                          // set pale red accent color
+  	//"material_theme_accent_orange": true,                       // set orange accent color
+  	//"material_theme_accent_yellow": true,                       // set yellow accent color
+  	"material_theme_panel_separator": false,                     // show bottom panel separator
+  	"material_theme_tabs_autowidth": false,                      // Enable autowidth for tabs
+  	"material_theme_contrast_mode": false,                       // Enable sidebar and panels contrast mode
+}
 ```
 
 ## Install Modelica mode
